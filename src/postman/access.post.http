@@ -1,0 +1,10 @@
+@url_dev=http://localhost:6016/v1/api/
+POST {{url_dev}}user/signup
+Content-Type: application/json
+x-api-key: 8b199e6551e3eb42bd1819c4db2d940b23f08fbf27161b957fe316865443a79c0d3be098ac71853fa66bf95fbb8fb183304f78ea49d1ce2753c27fbad1df9495
+
+{
+    "name": "Van Pham",
+    "email": "vandev13@gmail.com",
+    "password": "abc123"
+}
